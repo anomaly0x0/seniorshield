@@ -68,7 +68,7 @@ def sms_handler():
     incoming_msg = request.form['Body'].lower().strip()
     response_msg = ""
     if "schedule visit" in incoming_msg:
-        response_msg = "To schedule a virtual visit, please visit: https://yourdomain.tld/schedule"
+        response_msg = "To schedule a virtual visit, please visit: https://theseniorshield.com/schedule"
     else:
         response_msg = "Sorry, I didn't understand that. Reply 'schedule visit' to schedule a virtual visit with your doctor."
     client = signalwire_client(account, token, signalwire_space_url = signalwireurl)
