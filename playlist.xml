@@ -1,0 +1,9 @@
+<Response>
+  <Play>
+    https://theseniorshield.com/xml.mp3
+  </Play>
+  <Hangup/>
+  <Redirect method="GET">
+    https://theseniorshield.com/playlist.xml
+  </Redirect>
+</Response>
